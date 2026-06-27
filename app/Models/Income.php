@@ -22,6 +22,6 @@ class Income extends Model
 
     public function budget()
     {
-        return $this->belongsTo(Budgets::class);
+        return $this->belongsTo(Budget::class);
     }
 }

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Budget;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 class BudgetController extends Controller
 {
